@@ -75,7 +75,7 @@ Written by Arnd <Arnd@Zanduino.Com> at https://www.github.com/SV-Zanshin
 ** Declare constants used in the class                                                            **
 ***************************************************************************************************/
 const uint16_t SPI_DELAY_MICROSECONDS{1000};  ///< Wait time for SPI state changes
-const uint8_t  READING_RETRIES{64};           ///< Number of retries for reading
+const uint8_t  READING_RETRIES{1};           ///< Number of retries for reading
 
 class MAX31855_Class {
   /*!
